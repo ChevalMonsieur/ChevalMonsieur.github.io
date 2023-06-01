@@ -24,8 +24,8 @@ header {
     text-align: center;
 }
 
-.marginBottom {
-    margin-bottom: 10%;
+.marginTop {
+    margin-top: 10%;
 }
 
 .experience {
@@ -48,6 +48,14 @@ a {
 
 .AccueilButton {
     margin-right: 5%;
+}
+
+.jumbotron {
+    color: black;
+    padding: 10%;
+    margin: auto;
+    width: 80%;
+    text-align: center;
 }
 
 .CV {
