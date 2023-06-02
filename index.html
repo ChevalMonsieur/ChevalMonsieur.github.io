@@ -8,12 +8,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio Accueil</title>
 </head>
-    <body>
+    <body id="body">
         <header>
             <p> 
-                <a class="AccueilButton" href="" style="color: whitesmoke;">Accueil</a>
-                <a href="images/CV_HURSON_Justin.pdf" style="color: whitesmoke;">CV</a>|
-                <a href="#experiences" style="color: whitesmoke;">Mes experiences</a>|
+                <a class="AccueilButton" href="images/CV_HURSON_Justin.pdf" style="color: whitesmoke;">Mon CV</a>
+                <a href="#body" style="color: whitesmoke;">Début de page</a> |
+                <a href="#experiences" style="color: whitesmoke;">Mes expériences</a>|
+                <a href="#art" style="color: whitesmoke;">Mon art</a>|
                 <a href="#footerAncre" style="color: whitesmoke;">Contact</a>
             </p>
         </header>
@@ -33,15 +34,15 @@
 
         </div>
 
-        <div class="contenu col-12 marginTop titres" id="experiences">
+        <div class="contenu col-12 marginTop2 titres" id="experiences">
             <h1 class="col">MES EXPERIENCES :</h1>
             <br>
             <p> Ici se regroupent l'ensemble des expériences que je considère pertinentes à mettre dans mon portfolio. Elles peuvent être issues d'un cadre professionnel ou personnel</p>
         </div>
 
         <div class="contenu col-9 col-md-12 pp container">
-            <a class="col maxwidth" href="images/Experience  ODOMO.pdf"> <div class="experience" style="background-image: url('images/OdomoRETEX.png'); color: whitesmoke;"> <h1 class="TitreRetex">ODOMO</h1> </div> </a>
-            <a class="col maxwidth" href=""> <div class="experience" style="background-image: url('images/OdomoRETEX.png'); color: whitesmoke;"> <h1 class="TitreRetex">ODOMO</h1> </div> </a>
+            <a class="col maxwidth" href="images/ODOMO.pdf"> <div class="experience" style="background-image: url('images/OdomoRETEX.png'); color: whitesmoke;"> <h1 class="TitreRetex">ODOMO</h1> </div> </a>
+            <a class="col maxwidth" href="images/HYPERSPACE.pdf"> <div class="experience" style="background-image: url('images/Fond.png'); color: whitesmoke;"> <h1 class="TitreRetex">HYPERSPACE</h1> </div> </a>
             <a class="col maxwidth" href=""> <div class="experience" style="background-image: url('images/OdomoRETEX.png'); color: whitesmoke;"> <h1 class="TitreRetex">ODOMO</h1> </div> </a>
         </div>        
         
@@ -51,16 +52,29 @@
             <a class="col maxwidth" href=""> <div class="experience" style="background-image: url('images/OdomoRETEX.png'); color: whitesmoke;"> <h1 class="TitreRetex">ODOMO</h1> </div> </a>
         </div>
 
-        <div class="contenu col-12 titres" id="artwork">
+        <div class="contenu col-12 titres marginTop2" id="art">
             <h1 class="col">MON ART :</h1>
             <br>
             <p> j'ajoute régulièrement dans cette catégorie les pièces qui représentent le mieux ce que j'aime faire et la variété que je propose</p>
         </div>
 
         <div class="contenu">
+            <img class="imagesArt" src="images/1bitHD.gif" alt="Pixelart 1Bit">
+            <p class="contenuArtD"> Cette animation en pixelart sur <b>Aseprite</b> est considérée comme 1Bit, cela veut dire qu'elle n'est composée que de deux couleurs. Le 1Bit force à faire attention à la lisibilité de l'image et renforce l'idée que chaque pixel est important dans son oeuvre.
+                <br><br> Le pixelart devait à la base servir pour une animation dans un jeu sur itch.io mais le projet à été abandonné. </p>
+        </div>
+
+        <div class="contenu marginTop">
+            <p class="contenuArtG"> Ce montage photo a été inspiré par une image psychédélique générée par IA. Toutes les photos dans le montage ont été prises le même jour à Darwin Bordeaux, et chacune d'entre elle n'a été modifiée qu'avec des filtres de couleur et du rognage.
+                <br><br> Ce montage a été réalisé avec <b>Adobe Photoshop Mix</b>, une application mobile gratuite.
+            </p>
+            <img class="imagesArt imagesArtCarre" src="images/Psychedellique.JPG" alt="">
+        </div>
+
+        <div class="contenu marginTop">
             <img class="imagesArt" src="images/ModelBlender.png" alt="rendu 3D low-poly">
-            <p class="contenuArtD"> Modèle 3D "low-poly" (avec une quantité limitée de polygone) représentant une sculpture de Mr_Cheval (jouet cheval pour enfant) sur un support.
-                <br><br> Le modèle 3D a par la suite été imprimé en plusieurs tailles, dont certaines trop grandes qui se sont cassées</p>
+            <p class="contenuArtD"> Modèle 3D "low-poly" (avec une quantité limitée de polygone) créé via <b>Blender</b> représentant une sculpture de Mr_Cheval (jouet cheval pour enfant) sur un support.
+                <br><br> Le modèle 3D a par la suite été imprimé en plusieurs tailles, dont certaines trop grandes qui se sont cassées.</p>
         </div>
 
         <footer>
