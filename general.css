@@ -9,9 +9,33 @@ header {
     color: whitesmoke;
     float: left;
     position:fixed;
-    width: 60%;
+    width: 100%;
     padding-top: 1%;
     padding-bottom: 1%;
+}
+
+.imagesArt {
+    width: 60%;
+    height: 100%;
+    transition: transform .5s;
+    text-align: center;
+    padding: 5%;
+}
+
+.contenuArtG {
+    text-align: right;
+    padding: 5%;
+}
+
+.contenuArtD {
+    text-align: left;
+    padding: 5%;
+}
+
+.imagesArt:hover{
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .contenu {
@@ -21,7 +45,15 @@ header {
     color: whitesmoke;
     justify-content: space-evenly;
     padding-bottom: 3%;
-    text-align: center;
+    text-align: center;   
+}
+
+.titres {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;   
+
 }
 
 .marginTop {
@@ -132,6 +164,10 @@ img {
         padding: 20%;
         margin-bottom: 20%;
     }
+
+    header {
+        font-size: 75%;
+    }
 }
 
 #unique1 {
@@ -154,7 +190,7 @@ footer {
     color: black;
     padding: 13%;
     padding-top: 50px;
-    padding-bottom: 165px;
+    padding-bottom: 200px;
     background-color: whitesmoke;
 }
 
