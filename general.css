@@ -154,6 +154,14 @@ img {
 
 @media screen and (max-width: 650px) {
 
+    .contenuArtD {
+        text-align: center;
+    }
+    
+    .contenuArtG {
+        text-align: center;
+    }
+
     footer {
         padding: 20%;
     }
