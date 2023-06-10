@@ -191,7 +191,11 @@ img {
     }
 
     header {
-        font-size: 75%;
+        font-size: 55%;
+    }
+
+    header p {
+        margin-bottom: 5px;
     }
 }
 
