@@ -1,86 +1,210 @@
 <!DOCTYPE html>
 <html lang="fr">
+
 <head>
-    <link rel="stylesheet" href="html css/general.css"> 
-    <link rel="stylesheet" href="bootstrap/bootstrap.css"> 
+    <link rel="stylesheet" href="html css/general.css">
+    <link rel="stylesheet" href="bootstrap/bootstrap.css">
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortFolio Accueil</title>
 </head>
-    <body id="body">
-        <header>
-            <p> 
-                <a class="AccueilButton" href="images/CV_HURSON_Justin.pdf" style="color: whitesmoke;">Mon CV</a>
-                <a href="#body" style="color: whitesmoke;">Début de page</a> |
-                <a href="#experiences" style="color: whitesmoke;">Mes expériences</a>|
-                <a href="#art" style="color: whitesmoke;">Mon art</a>|
-                <a href="#footerAncre" style="color: whitesmoke;">Contact</a>
-            </p>
-        </header>
+
+<body id="body">
+    <header>
+        <p>
+            <a class="AccueilButton" href="images/CV_HURSON_Justin.pdf" style="color: whitesmoke;" target="_blank">Mon CV</a>
+            <a href="#competences" style="color: whitesmoke;">Mes compétences</a>|
+            <a href="#experiences" style="color: whitesmoke;">Mes expériences</a>|
+            <a href="#art" style="color: whitesmoke;">Mon art</a>|
+            <a href="#footerAncre" style="color: whitesmoke;">Contact</a>
+        </p>
+
+    </header>
+
+    <a href="#body" class="noHover">
+        <div>
+            <img src="images/black1.png" alt="" class="fixe">
+        </div>
+    </a>
+
+    <div class="contenu titres" style="margin-top: 6rem;">
+        <img src="images/PhotoMoiRonde.png" alt="PhotoDeMoi"> <br> <br>
+        <h1>HURSON JUSTIN</h1>
+        <br>
+        <p>
+            Etudiant de 2eme année en BUT informatique, j'aime l'art digital et les jeux vidéos. Dans mon temps libre
+            j'associe les deux pour créer des jeux et des projets informatiques
+        </p>
+    </div>
 
 
 
-        <div class="void">
-            <p> ‎ </p>
+    <div>
+        <span class="anchor" id="competences"></span>
+        <h1 class="contenu col-12 titres marginTop2 col" style="margin-bottom: 4rem;">MES COMPETENCES :</h1>
+
+        <h3 class="titrePourcent">LANGAGES DE PROGRAMMATION / BALISAGE</h3>
+        <p class="titrePourcent" style="margin-bottom: 2rem; font-size: small;">* chacune des compétences est mesurée en
+            rapport avec la meilleure compétence de la même catégorie</p>
+
+        <p class="titrePourcent">C#</p>
+        <div class="col-10 container" style="flex-direction: row; display: flex;">
+            <div class="fondPourcent">
+                <p class="pourcent" style="width: 100%;">100%</p>
+            </div>
         </div>
 
-        <div class="contenu">
-            <img src="images/PhotoMoiRonde.png" alt="PhotoDeMoi">
+        <p class="titrePourcent">JAVA</p>
+        <div class="col-10 container" style="flex-direction: row; display: flex;">
+            <div class="fondPourcent">
+                <p class="pourcent" style="width: 85%;">85%</p>
+            </div>
         </div>
 
-        <div class="contenu titres">
-            <h1>HURSON JUSTIN</h1>
-            <br>
-            <p>Etudiant de 2eme année en BUT informatique, j'aime l'art digital et les jeux vidéos. Dans mon temps libre j'associe les deux pour créer des jeux et des projets informatiques</p>
-            <br> <br>
-            <h3>MES COMPETENCES</h3>
-            <br> <br>
+        <p class="titrePourcent">PYTHON</p>
+        <div class="col-10 container" style="flex-direction: row; display: flex;">
+            <div class="fondPourcent">
+                <p class="pourcent" style="width: 70%;">70%</p>
+            </div>
+        </div>
+
+        <p class="titrePourcent">HTML/CSS</p>
+        <div class="col-10 container" style="flex-direction: row; display: flex;">
+            <div class="fondPourcent">
+                <p class="pourcent" style="width: 65%;">65%</p>
+            </div>
         </div>
 
 
+        <h3 class="titrePourcent" style="margin-top: 3.5rem; margin-bottom: 1.5rem;">OUTILS DE DESIGN / MODELISATION</h3>
 
+        <p class="titrePourcent">ASEPRITE</p>
+        <div class="col-10 container" style="flex-direction: row; display: flex;">
+            <div class="fondPourcent">
+                <p class="pourcent" style="width: 100%;">100%</p>
+            </div>
+        </div>   
+        <p class="titrePourcent">BLENDER</p>
+        <div class="col-10 container" style="flex-direction: row; display: flex;">
+            <div class="fondPourcent">
+                <p class="pourcent" style="width: 95%;">95%</p>
+            </div>
+        </div>
+        
+        <p class="titrePourcent">CANVA</p>
+        <div class="col-10 container" style="flex-direction: row; display: flex;">
+            <div class="fondPourcent">
+                <p class="pourcent" style="width: 80%;">80%</p>
+            </div>
+        </div>        
+        <p class="titrePourcent">KRITA</p>
+        <div class="col-10 container" style="flex-direction: row; display: flex;">
+            <div class="fondPourcent">
+                <p class="pourcent" style="width: 70%;">70%</p>
+            </div>
+        </div>   
+
+
+        <h3 class="titrePourcent" style="margin-top: 3.5rem; margin-bottom: 1.5rem;">AUTRES OUTILS</h3>
+
+        <ul class="contenu" style="text-align: left; flex-direction: column; display: flex;">
+            <li><img style="width: 3rem; margin-right: 1rem; margin-bottom: 0.8rem;" src="images/logoGit.png" alt="logoGit"> Capacité à gérer un projet <b> Git </b> </li>
+            <li><img style="width: 3rem; margin-right: 1rem; margin-bottom: 0.8rem;" src="images/logoUnity.webp" alt="logoUnity"> Utilisation fréquente du moteur de jeu <b> Unity </b> </li>
+            <li><img style="width: 3rem; margin-right: 1rem; margin-bottom: 0.8rem;" src="images/logoVSCode.png" alt="logoVSCode"><img style="width: 3rem; margin-right: 1rem; margin-bottom: 0.8rem;" src="images/logoVS.png" alt="logoVS"><img style="width: 2.7rem; margin-right: 1rem; margin-bottom: 0.8rem;" src="images/logoNetbeans.png" alt="logoNetbeans"> Aisance avec les IDE <b> Visual Studio</b>, <b>Visual Studio code</b>  et <b> Netbeans </b> </li>
+        </ul>
+    </div>
+
+
+    <div>
         <span class="anchor" id="experiences"></span>
         <div class="contenu col-12 titres marginTop2">
             <h1 class="col">MES EXPERIENCES :</h1>
             <br>
-            <p class="deuxTiers"> Aujoud'hui, via mon cursus scolaire et ma motivation personnelle, j'ai pu réaliser differentes expériences informatiques.
-                 <br> <br> Sur ce portfolio je présente certaines de ces expériences que je considére pertinentes. Certaines représentent les compétences que le BUT m'a appris, d'autres, des compétences que j'ai voulu acquiérir par moi-même</p>
-        </div>
-        
-        <div class="contenu col-10 col-md-11 pp container">
-            <a class="col noHover" href=""> <div class="experience2" style="background-image: url('images/SFTX2U.png'); color: whitesmoke;"> <h3 class="TitreRetex">SFTX2U</h3> </div> </a>
-            <a class="col noHover" href=""> <div class="experience2" style="background-image: url('images/MiniCarGame.png'); color: whitesmoke;"> <h3 class="TitreRetex">MINI CAR GAME</h3> </div> </a>
-        </div>     
-
-        <div class="contenu col-10 col-md-11 pp container">
-            <a class="col noHover" href=""> <div class="experience2" style="background-image: url('images/Fond.png'); color: whitesmoke;"> <h3 class="TitreRetex">HHCSSS</h3> </div> </a>
-            <a class="col noHover" href=""> <div class="experience2" style="background-image: url('images/MachineLearning.png'); color: whitesmoke;"> <h3 class="TitreRetex">MACHINE LEARNING</h3> </div> </a>
-        </div>        
-        
-        <div class="contenu col-10 col-md-11  pp container">
-            <a class="col noHover" href="html css/DeathGrips.html"> <div class="experience3" style="background-image: url('images/JeuAOP.png');"> <h3 class="TitreRetex">DEATH GRIPS</h3> </div> </a>
-            <a class="col noHover" href=""> <div class="experience3" style="background-image: url('images/Biosphere7.png'); color: whitesmoke;"> <h3 class="TitreRetex">BIOSPHERE</h3> </div> </a>
-            <a class="col noHover" href=""> <div class="experience3" style="background-image: url('images/jeuBillard.png'); color: whitesmoke;"> <h3 class="TitreRetex">T-REX GAME LIKE</h3> </div> </a>
+            <p class="deuxTiers"> Aujoud'hui, via mon cursus scolaire et ma motivation personnelle, j'ai pu réaliser
+                differentes expériences informatiques.
+                <br> <br> Sur ce portfolio je présente certaines de ces expériences que je considére pertinentes.
+                Certaines
+                représentent les compétences que le BUT m'a appris, d'autres, des compétences que j'ai voulu acquiérir
+                par
+                moi-même
+            </p>
         </div>
 
+        <div class="contenu col-10 col-md-11 pp container smNoPadding">
+            <a class="col noHover smMargin10b" href="">
+                <div class="experience2" style="background-image: url('images/SFTX2U.png'); color: whitesmoke;">
+                    <h3 class="TitreRetex">SFTX2U</h3>
+                </div>
+            </a>
+            <a class="col noHover smMargin10b" href="">
+                <div class="experience2" style="background-image: url('images/MiniCarGame.png'); color: whitesmoke;">
+                    <h3 class="TitreRetex">MINI CAR GAME</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="contenu col-10 col-md-11 pp container smNoPadding">
+            <a class="col noHover smMargin10b" href="">
+                <div class="experience2" style="background-image: url('images/Fond.png'); color: whitesmoke;">
+                    <h3 class="TitreRetex">HHCSSS</h3>
+                </div>
+            </a>
+            <a class="col noHover smMargin10b" href="">
+                <div class="experience2"
+                    style="background-image: url('images/MachineLearning.png'); color: whitesmoke;">
+                    <h3 class="TitreRetex">MACHINE LEARNING</h3>
+                </div>
+            </a>
+        </div>
+
+        <div class="contenu col-10 col-md-11  pp container smNoPadding">
+            <a class="col noHover smMargin10b" href="html css/DeathGrips.html">
+                <div class="experience3" style="background-image: url('images/JeuAOP.png');">
+                    <h3 class="TitreRetex">DEATH GRIPS</h3>
+                </div>
+            </a>
+            <a class="col noHover smMargin10b" href="">
+                <div class="experience3" style="background-image: url('images/Biosphere7.png'); color: whitesmoke;">
+                    <h3 class="TitreRetex">BIOSPHERE</h3>
+                </div>
+            </a>
+            <a class="col noHover smMargin10b" href="">
+                <div class="experience3" style="background-image: url('images/jeuBillard.png'); color: whitesmoke;">
+                    <h3 class="TitreRetex">T-REX GAME LIKE</h3>
+                </div>
+            </a>
+        </div>
+    </div>
 
 
+    <div>
         <span class="anchor" id="art"></span>
         <div class="contenu col-12 titres marginTop2">
             <h1 class="col">MON ART :</h1>
             <br>
-            <p class="deuxTiers"> j'ajoute régulièrement dans cette catégorie les pièces qui représentent le mieux ce que j'aime faire et la variété que je propose.</p>
+            <p class="deuxTiers"> j'ajoute régulièrement dans cette catégorie les pièces qui représentent le mieux ce
+                que
+                j'aime faire et la variété que je propose.</p>
         </div>
 
         <div class="contenu">
             <img class="imagesArt" src="images/1bitHD.gif" alt="Pixelart 1Bit">
-            <p class="contenuD"> Cette animation en pixelart sur <b>Aseprite</b> est considérée comme 1Bit, cela veut dire qu'elle n'est composée que de deux couleurs. Le 1Bit force à faire attention à la lisibilité de l'image et renforce l'idée que chaque pixel est important dans son oeuvre.
-                <br><br> Le pixelart devait à la base servir pour une animation dans un jeu sur itch.io mais le projet à été abandonné. </p>
+            <p class="contenuD"> Cette animation en pixelart sur <b>Aseprite</b> est considérée comme 1Bit, cela veut
+                dire
+                qu'elle n'est composée que de deux couleurs. Le 1Bit force à faire attention à la lisibilité de l'image
+                et
+                renforce l'idée que chaque pixel est important dans son oeuvre.
+                <br><br> Le pixelart devait à la base servir pour une animation dans un jeu sur itch.io mais le projet à
+                été
+                abandonné.
+            </p>
         </div>
 
         <div class="contenu marginTop">
-            <p class="contenuG"> Ce montage photo a été inspiré par une image psychédélique générée par IA. Toutes les photos dans le montage ont été prises le même jour à Darwin Bordeaux, et chacune d'entre elle n'a été modifiée qu'avec des filtres de couleur et du rognage.
+            <p class="contenuG"> Ce montage photo a été inspiré par une image psychédélique générée par IA. Toutes les
+                photos dans le montage ont été prises le même jour à Darwin Bordeaux, et chacune d'entre elle n'a été
+                modifiée qu'avec des filtres de couleur et du rognage.
                 <br><br> Ce montage a été réalisé avec <b>Adobe Photoshop Mix</b>, une application mobile gratuite.
             </p>
             <img class="imagesArt imagesArtCarre" src="images/Psychedellique.JPG" alt="">
@@ -88,33 +212,42 @@
 
         <div class="contenu marginTop">
             <img class="imagesArt" src="images/ModelBlender.png" alt="rendu 3D low-poly">
-            <p class="contenuD"> Modèle 3D "low-poly" (avec une quantité limitée de polygone) créé via <b>Blender</b> représentant une sculpture de Mr_Cheval (jouet cheval pour enfant) sur un support.
-                <br><br> Le modèle 3D a par la suite été imprimé en plusieurs tailles, dont certaines trop grandes qui se sont cassées.</p>
+            <p class="contenuD"> Modèle 3D "low-poly" (avec une quantité limitée de polygone) créé via <b>Blender</b>
+                représentant une sculpture de Mr_Cheval (jouet cheval pour enfant) sur un support.
+                <br><br> Le modèle 3D a par la suite été imprimé en plusieurs tailles, dont certaines trop grandes qui
+                se
+                sont cassées.
+            </p>
         </div>
-        
+
         <div class="contenu marginTop">
-            <p class="contenuG"> <!--Ce pixelart fait parti des premiers artwork dont je suis réellement fier du rendu. Tout comme l'animation en 1Bit, il a été réalisé sur <b>Aseprite--></b> </p>
+            <p class="contenuG">
+                <!--Ce pixelart fait parti des premiers artwork dont je suis réellement fier du rendu. Tout comme l'animation en 1Bit, il a été réalisé sur <b>Aseprite--></b>
+            </p>
             <img class="imagesArt" src="images/wallpaper.png" alt="image d'une fusée sortant d'un nuage">
         </div>
+    </div>
 
 
 
-        <footer>
-            <div class="itemfooter" id="footerAncre">
-                <img class="imgfooter" src="images/logoMail.png" alt="mail">
-                <p class="footerText" > mail :</p>
-                <p class="footerText" style="font-weight: bold;"> <a href="mailto:just.1et2mii@gmail.com"> just.1et2mii @gmail.com </a></p>
-            </div>
-            <div class="itemfooter">
-                <img class="imgfooter" src="images/logoTel.png" alt="téléphone">
-                <p class="footerText" > téléphone :</p>
-                <p class="footerText" style="font-weight: bold;"> 06 33 41 82 62 </p>
-            </div>
-            <div class="itemfooter">
-                <img class="imgfooter" src="images/logoMaison.png" alt="localisation">
-                <p class="footerText" > localisation :</p>
-                <p class="footerText" style="font-weight: bold;"> 33 Rue des Bahutiers (Bordeaux) </p>
-            </div>
-        </footer>
-    </body>
+    <footer>
+        <div class="itemfooter" id="footerAncre">
+            <img class="imgfooter" src="images/logoMail.png" alt="mail">
+            <p class="footerText"> mail :</p>
+            <p class="footerText" style="font-weight: bold;"> <a href="mailto:just.1et2mii@gmail.com"> just.1et2mii
+                    @gmail.com </a></p>
+        </div>
+        <div class="itemfooter">
+            <img class="imgfooter" src="images/logoTel.png" alt="téléphone">
+            <p class="footerText"> téléphone :</p>
+            <p class="footerText" style="font-weight: bold;"> 06 33 41 82 62 </p>
+        </div>
+        <div class="itemfooter">
+            <img class="imgfooter" src="images/logoMaison.png" alt="localisation">
+            <p class="footerText"> localisation :</p>
+            <p class="footerText" style="font-weight: bold;"> 33 Rue des Bahutiers (Bordeaux) </p>
+        </div>
+    </footer>
+</body>
+
 </html>
