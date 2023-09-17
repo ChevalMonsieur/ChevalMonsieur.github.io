@@ -23,8 +23,8 @@ header {
 
 .fixe {
     border: solid whitesmoke;
-    width: 3em;
-    height: 3em;
+    width: 3rem;
+    height: 3rem;
     border-width: 2px;
     border-radius: 100%;
     background-color: black;
@@ -34,9 +34,15 @@ header {
     color: whitesmoke;
     float: left;
     position:fixed;
-    bottom: 2em;
-    right: 2em;
+    bottom: 2rem;
     background-size: cover;
+    transition: transform .2s;
+}
+
+.fixe:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
 }
 
 .imagesArt {
@@ -128,6 +134,16 @@ header {
     padding-bottom: 20%;
 }
 
+.newHover {
+    transition: transform .5s;
+}
+
+.newHover:hover {
+    -ms-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+
 .void {
     padding-bottom: 10%;
 }
@@ -205,9 +221,26 @@ img {
     line-height: 100%;
 }
 
+.reseaux {
+    width: 1.5rem;
+}
+
+.reseauxLien {
+    margin: 0rem 1.5rem 0rem 0rem;
+    float: right;
+}
+
 @media screen and (max-width: 1000px) {
     .TitreRetex {
     font-size: 130%;
+    }
+
+    header {
+        font-size: 75%;
+    }
+
+    .reseauxLien {
+        margin: 0 1rem 0 0;
     }
 }
 
@@ -215,6 +248,14 @@ img {
 
     .smMargin10b {
         margin-bottom: 10%;
+    }
+
+    .reseaux {
+        width: .7rem;
+    }
+
+    .reseauxLien {
+        margin: 0 0.5rem 0 0;
     }
 
     .smNoPadding {
@@ -247,7 +288,7 @@ img {
     }
 
     header {
-        font-size: 55%;
+        font-size: 50%;
     }
 
     header p {
@@ -320,6 +361,19 @@ footer {
     width: 80%;
 }
 
+.textLink {
+    margin: 0;
+    color: rgb(151, 175, 198);
+    text-decoration: none;
+    transition: transform .3s;
+}
+
+.textLink:hover {
+    color: rgb(151, 175, 198);
+    text-decoration: none;
+
+}
+
 .pourcent {
     background-color: color-mix(in srgb, rgb(190, 121, 121) 0%, rgb(121, 190, 148) 100%);
     text-align: center;
@@ -346,8 +400,14 @@ span.anchor {
     background-position: 3px 50px;
 }
 
+.resume::after {
+    color: rgb(151, 175, 198);
+    content:'... voir plus';
+}
+
 summary::after {
-    content:'... \D voir plus';
+    color: rgb(151, 175, 198);
+    content:'... see more';
 }
   
 details[open] summary::after {
