@@ -362,6 +362,7 @@ footer {
 }
 
 .textLink {
+    font-weight: bold;
     margin: 0;
     color: rgb(151, 175, 198);
     text-decoration: none;
@@ -370,8 +371,7 @@ footer {
 
 .textLink:hover {
     color: rgb(151, 175, 198);
-    text-decoration: none;
-
+    text-decoration: none !important;
 }
 
 .pourcent {
@@ -401,11 +401,13 @@ span.anchor {
 }
 
 .resume::after {
+    font-weight: bold;
     color: rgb(151, 175, 198);
     content:'... voir plus';
 }
 
 summary::after {
+    font-weight: bold;
     color: rgb(151, 175, 198);
     content:'... see more';
 }
