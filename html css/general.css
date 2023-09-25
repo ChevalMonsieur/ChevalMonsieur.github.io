@@ -263,6 +263,9 @@ img {
 .imageTitreRetex {
     width: 60%;
 }
+.imageTitreRetexCarre {
+    width: 40%;
+}
 
 @media screen and (max-width: 1000px) {
 
@@ -289,6 +292,10 @@ img {
 
     .imageTitreRetex {
         width: 80%;
+    }
+    
+    .imageTitreRetex {
+        width: 60%;
     }
 
     .TitreRetex {
@@ -357,6 +364,10 @@ img {
 
     .imageTitreRetex {
         width: 95%;
+    }
+    
+    .imageTitreRetex {
+        width: 85%;
     }
 
     .resumeRetex {

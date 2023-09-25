@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <link rel="stylesheet" href="general.css">
+    <link rel="stylesheet" href="../bootstrap/bootstrap.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio experience Biosphere</title>
+</head>
+
+<body id="body">
+    <header>
+        <p>
+            <a class="AccueilButton" href="../images/CV_HURSON_Justin.pdf" style="color: whitesmoke;"
+                target="_blank">Mon CV</a>
+            <a href="../index.html" style="color: whitesmoke;">Accueil</a>|
+            <!--<a href="https://github.com/Kamizzs/JeuJK" style="color: whitesmoke;" target="_blank">Voir Git</a>|-->
+            <a href="#footerAncre" style="color: whitesmoke;">Contact</a>
+            <a href="https://mrcheval.itch.io" class="reseauxLien" target="_blank"><img src="../images/logoItch.png"
+                    alt="logo Itch.io" class="reseaux"></a>
+            <a href="https://github.com/ChevalMonsieur" class="reseauxLien" target="_blank"><img
+                    src="../images/logoGithub.png" alt="logo Github" class="reseaux"></a>
+            <a href="https://www.linkedin.com/in/justin-hurson-0794b1253/" class="reseauxLien" target="_blank"><img
+                    src="../images/logoLinkedin.webp" alt="logo Linkedin" class="reseaux"></a>
+        </p>
+    </header>
+
+    <div>
+        <a href="BiosphereUS.html" class="noHover">
+            <div>
+                <img src="../images/drapeauUS.png" alt="" class="fixe">
+            </div>
+        </a>
+
+        <a href="#body" class="noHover">
+            <div>
+                <img src="../images/black1.png" alt="" class="fixe fixe2">
+            </div>
+        </a>
+    </div>
+
+
+
+
+    <div class="contenu col-9 titres" style="margin-top: 5rem;">
+        <img class="newHover imageTitreRetexCarre" src="../images/Biosphere7.png" alt="partie graphique de Biosphere 7">
+
+        <details class="sm90">
+            <summary class="resume" style="margin-top: 5rem;"> Biosphère 7 est un projet que j'ai réalisé lors de ma
+                première année de BUT, il se séparait en deux phases. La première consistait à coder en solo le plus de
+                règles
+                (prédéfinies) d'un jeu de plateau, tandis que la seconde </summary>
+            qui se faisait en duo, consistait a créer une IA capable de jouer au jeu de plateau et de la faire concourir
+            faces aux IA des autres élèves lors de tournois qui se passaient chaque nuit. Lors de la nuit "finale" le
+            dernier tournoi determinait le classement des IA.
+            <br><br>La première partie du projet ne laissait pas grande liberté de travail, il fallait respecter les
+            règles du jeu et faire en sorte que l'IA renvoie un coup valide sous la forme d'un tableau de string comme
+            ceci :
+            <br><img class="newHover" src="../images/Biosphere7Coup.png" alt="Renvoi en string d'un coup"
+                style="width: 40%; margin-top: 3rem; margin-bottom: 3rem;">
+            <br> La seconde partie cependant nous laissait plus de liberté, a moi et a mon binôme <a class="textLink"
+                href="https://kikoojap4.github.io/portfolio/" target="_blank"> Simon Pascal </a> puisque nous pouvions
+            choisir et reflechir librement a quelle stratégie nous allions donner a notre IA.
+            <br><br>Au départ, du a une faille dans le fonctionnement du jeu, nous avions trouvé une startégie qui
+            forçait un match nul au pire et une victoire au mieux. La faille était que le plateau était vide au depart,
+            que la seule première action possible est de poser un "pion" et qu'il était constamment possible de detruire
+            ce "pion" et donc de forcer nul (si on ne commence pas). Cependant un autre élève s'en est rendu compte et a
+            prévenu les organisateurs, qui ont par la suite modifié le plateau de base pour ne plus qu'il soit vide au
+            départ.
+            <br><br>Nous sommes par la suite parti sur une stratégie MinMax, qui lisait les meilleurs coups sur 1.5
+            tours (joueur 1 joue, puis joueur 2 joue). Notre stratégie à dominé le tournoi pendant plus d'une semaine.
+            Cependant avec les stratégies adverses s'améliorant, l'IA n'est arrivé que 7eme (sur 25) lors du tournoi
+            final.
+
+        </details>
+        </p>
+    </div>
+
+
+
+    <div>
+        <span class="anchor" id="resume"></span>
+        <h2 class="contenu col-12 titres col" style="margin-bottom: 2rem; margin-top: 7rem;">RÉSUMÉ DU PROJET : </h2>
+
+        <h4 class="titrePourcent" style="margin-top: 2rem; margin-bottom: 1.5rem;">OUTILS UTILISÉS</h4>
+
+        <ul class="contenu sm90" style="text-align: left; flex-direction: column; display: flex;">
+            <li><img class="logoPetit" src="../images/logoJava.webp" alt="logoJava"> Code en Java répondant a une demande préalable, auto-organisation et réflexion transmise en Java </li>
+            <li><img class="logoPetit" src="../images/logoBash.png" alt="logoBash"> Utilisation de bash pour manipuler des fichiers et créer des connexions directes. </li>
+        </ul>
+
+        <h4 class="titrePourcent" style="margin-top: 2rem; margin-bottom: 1.5rem;">COMPÉTENCES ACQUISES / AMÉLIORÉES
+        </h4>
+
+        <ul class="contenu sm90" style="text-align: left; flex-direction: column; display: flex; margin-bottom: 3rem;">
+            <li> Management de projet (temps et repartition des tâches) </li>
+            <li> Réflexion autonome et efficace </li>
+            <li> Niveau de programmation </li>
+            <li> Amélioration et optimisation de code (en temps et en espace) </li>
+        </ul>
+    </div>
+
+
+
+    <footer id="footerAncre" style="padding: 1rem;">
+        <div class="footerText" style="display: flex; justify-content: space-evenly;">
+            <a href="https://www.linkedin.com/in/justin-hurson-0794b1253/" target="_blank"><img class="imgfooter"
+                    src="../images/logoLinkedinFooter.webp" alt="Logo Linkedin"></a>
+            <a href="https://github.com/ChevalMonsieur" target="_blank"><img class="imgfooter"
+                    src="../images/logoGithubFooter.png" alt="logo Github"></a>
+            <a href="https://mrcheval.itch.io" target="_blank"><img class="imgfooter" src="../images/logoItchFooter.png"
+                    alt="logo Itch.io"></a>
+            <a href="mailto:just.1et2mii@gmail.com"><img class="imgfooter" src="../images/logoMail.png"
+                    alt="Logo Mail"></a>
+        </div>
+    </footer>
+</body>
